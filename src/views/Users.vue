@@ -32,7 +32,7 @@ export default {
       axios
         .get("https://api.github.com/search/users?q=" + userName)
         .then(result => {
-          this.totalItems = result.data.total_count || null;
+          this.totalItems = result.data.total_count || 0;
           this.users = result.data.items;
         })
         .catch(err => {

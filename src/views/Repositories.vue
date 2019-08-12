@@ -33,7 +33,7 @@ export default {
       axios
         .get(`https://api.github.com/users/${this.userName}/repos`)
         .then(result => {
-          this.totalItems = result.data.length || null;
+          this.totalItems = result.data.length || 0;
           this.repositories = result.data;
         })
         .catch(err => {
