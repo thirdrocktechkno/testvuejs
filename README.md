@@ -1,4 +1,4 @@
-# vuejs-micro-project
+# testvuejs
 
 > A VueJs Micro Project with using Github API. In this project, we used
 
@@ -11,7 +11,7 @@
 
 - Node 8 >=
 - Clone repo with git clone https://github.com/thirdrocktechkno/testvuejs.git
-- cd vuejs-micro-project
+- cd testvuejs
 
 ## Serve Project for development
 
