@@ -10,7 +10,7 @@
 ## Install dependency to execute project
 
 - Node 8 >=
-- Clone repo with git clone https://github.com/darshantrt/vuejs-micro-project.git
+- Clone repo with git clone https://github.com/thirdrocktechkno/testvuejs.git
 - cd vuejs-micro-project
 
 ## Serve Project for development
